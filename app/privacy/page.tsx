@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy - NEXYZY',
-  description: 'Privacy policy for NEXYZY.',
+  title: 'Privacy - 415 Industries',
+  description: 'Privacy policy for 415 Industries.',
 };
 
 export default function PrivacyPage() {

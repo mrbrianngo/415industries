@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About - NEXYZY',
-  description: 'About NEXYZY - A minimalist ecommerce experience.',
+  title: 'About - 415 Industries',
+  description: 'About 415 Industries - A minimalist ecommerce experience.',
 };
 
 export default function AboutPage() {
@@ -11,9 +11,9 @@ export default function AboutPage() {
       <h1 className="text-xl">ABOUT</h1>
 
       <section className="space-y-4">
-        <h2 className="text-lg">NEXYZY</h2>
+        <h2 className="text-lg">415 Industries</h2>
         <p className="leading-relaxed">
-          NEXYZY is a minimalist ecommerce template inspired by the design
+          415 Industries is a minimalist ecommerce template inspired by the design
           principles of simplicity and functionality. Built with Next.js and
           modern web technologies, it offers a streamlined shopping experience
           focused on essential clothing items.
@@ -23,7 +23,7 @@ export default function AboutPage() {
       <section className="space-y-4">
         <h2 className="text-lg">TECHNOLOGY</h2>
         <p className="leading-relaxed">
-          Built using Next.js App Router, TypeScript, and Tailwind CSS, NEXYZY
+          Built using Next.js App Router, TypeScript, and Tailwind CSS, 415 Industries
           represents a modern approach to ecommerce, prioritizing performance
           and user experience.
         </p>

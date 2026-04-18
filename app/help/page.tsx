@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Help - NEXYZY',
-  description: 'Help and support information for NEXYZY.',
+  title: 'Help - 415 Industries',
+  description: 'Help and support information for 415 Industries.',
 };
 
 export default function HelpPage() {
@@ -23,7 +23,7 @@ export default function HelpPage() {
         <h2 className="text-lg">ORDER ISSUES</h2>
         <p className="leading-relaxed">
           For any issues with your order (e.g., wrong item or defective
-          product), contact us at noreply@nextzy.com
+          product), contact us at support@415industries.com
         </p>
         <p className="leading-relaxed">
           Please include your order number and details of the issue.

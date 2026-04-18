@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Terms - NEXYZY',
-  description: 'Terms and conditions for NEXYZY.',
+  title: 'Terms - 415 Industries',
+  description: 'Terms and conditions for 415 Industries.',
 };
 
 export default function TermsPage() {
@@ -13,7 +13,7 @@ export default function TermsPage() {
       <section className="space-y-4">
         <h2 className="text-lg">TERMS OF SERVICE</h2>
         <p className="leading-relaxed">
-          By accessing and placing an order with NEXYZY, you confirm that you
+          By accessing and placing an order with 415 Industries, you confirm that you
           are in agreement with and bound by the terms and conditions contained
           herein.
         </p>

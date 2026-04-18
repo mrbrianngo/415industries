@@ -9,6 +9,7 @@ interface ProductImageProps {
   maxHeight?: string;
   className?: string;
   layoutId?: string;
+  srcOverride?: string;
 }
 
 export function ProductImage({
@@ -17,6 +18,7 @@ export function ProductImage({
   maxHeight = 'none',
   className = '',
   layoutId,
+  srcOverride,
 }: ProductImageProps) {
   return (
     <motion.div
@@ -31,7 +33,7 @@ export function ProductImage({
       layoutId={layoutId}
     >
       <Image
-        src={product.image}
+        src={srcOverride || product.image}
         alt={product.name}
         fill
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

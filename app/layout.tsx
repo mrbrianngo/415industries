@@ -4,8 +4,8 @@ import { Metadata, Viewport } from 'next';
 import { CartProvider } from '@/components/cart-context';
 
 export const metadata: Metadata = {
-  title: 'NEXYZY',
-  description: 'Inspired by yeezy.com, built with Next.js.',
+  title: '415 Industries',
+  description: '415 Industries Season 1: Legacy.',
 };
 
 export const viewport: Viewport = {
