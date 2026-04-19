@@ -1,13 +1,14 @@
-const CHUNK_PUBLIC_PATH = "server/app/help/page.js";
-const runtime = require("../../chunks/ssr/[turbopack]_runtime.js");
-runtime.loadChunk("server/chunks/ssr/f912e_next_dist_8cfa78._.js");
-runtime.loadChunk("server/chunks/ssr/[root of the server]__1d8224._.js");
-runtime.loadChunk("server/chunks/ssr/app_db13a2._.js");
-runtime.loadChunk("server/chunks/ssr/_796725._.js");
-runtime.loadChunk("server/chunks/ssr/_4a3150._.css");
-runtime.loadChunk("server/chunks/ssr/node_modules__pnpm_748ecb._.js");
-runtime.loadChunk("server/chunks/ssr/f912e_next_dist_client_components_forbidden-error_7e5c49.js");
-runtime.loadChunk("server/chunks/ssr/f912e_next_dist_client_components_unauthorized-error_0c270b.js");
-runtime.loadChunk("server/chunks/ssr/_e707c6._.js");
-runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/help/page/actions.js [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);
-module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/.pnpm/next@15.1.1-canary.22_react_e7fafc9fa8786d084fbd22c885b14bd3/node_modules/next/dist/esm/build/templates/app-page.js?page=/help/page { METADATA_0 => \"[project]/app/favicon.ico.mjs { IMAGE => \\\"[project]/app/favicon.ico [app-rsc] (static)\\\" } [app-rsc] (structured image object, ecmascript, Next.js server component)\", MODULE_1 => \"[project]/app/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_2 => \"[project]/node_modules/.pnpm/next@15.1.1-canary.22_react_e7fafc9fa8786d084fbd22c885b14bd3/node_modules/next/dist/client/components/not-found-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_3 => \"[project]/node_modules/.pnpm/next@15.1.1-canary.22_react_e7fafc9fa8786d084fbd22c885b14bd3/node_modules/next/dist/client/components/forbidden-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_4 => \"[project]/node_modules/.pnpm/next@15.1.1-canary.22_react_e7fafc9fa8786d084fbd22c885b14bd3/node_modules/next/dist/client/components/unauthorized-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_5 => \"[project]/app/help/page.tsx [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/help/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0r3o8gi._.js")
+R.c("server/chunks/ssr/0q5k__pnpm_07.1a1b._.js")
+R.c("server/chunks/ssr/07-b_next_dist_esm_build_templates_app-page_0.y~ls7.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0jtb4gm._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0zm5ncj._.js")
+R.c("server/chunks/ssr/Desktop_nextzy-main_415industries_0g6bpzt._.js")
+R.c("server/chunks/ssr/07-b_next_dist_client_components_014vbu0._.js")
+R.c("server/chunks/ssr/07-b_next_dist_client_components_builtin_forbidden_0cihn01.js")
+R.c("server/chunks/ssr/07-b_next_dist_client_components_builtin_unauthorized_05y_t1x.js")
+R.c("server/chunks/ssr/07-b_next_dist_client_components_builtin_global-error_0l~3qqj.js")
+R.c("server/chunks/ssr/0amv_nextzy-main_415industries__next-internal_server_app_help_page_actions_0kfb.ko.js")
+R.m(52738)
+module.exports=R.m(52738).exports

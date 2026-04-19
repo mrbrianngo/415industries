@@ -1,10 +1,13 @@
-const CHUNK_PUBLIC_PATH = "server/app/_not-found/page.js";
-const runtime = require("../../chunks/ssr/[turbopack]_runtime.js");
-runtime.loadChunk("server/chunks/ssr/f912e_next_dist_8cfa78._.js");
-runtime.loadChunk("server/chunks/ssr/[root of the server]__1d8224._.js");
-runtime.loadChunk("server/chunks/ssr/app_db13a2._.js");
-runtime.loadChunk("server/chunks/ssr/_796725._.js");
-runtime.loadChunk("server/chunks/ssr/_4a3150._.css");
-runtime.loadChunk("server/chunks/ssr/_3b0887._.js");
-runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/_not-found/page/actions.js [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);
-module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/.pnpm/next@15.1.1-canary.22_react_e7fafc9fa8786d084fbd22c885b14bd3/node_modules/next/dist/esm/build/templates/app-page.js?page=/_not-found/page { METADATA_0 => \"[project]/app/favicon.ico.mjs { IMAGE => \\\"[project]/app/favicon.ico [app-rsc] (static)\\\" } [app-rsc] (structured image object, ecmascript, Next.js server component)\", MODULE_1 => \"[project]/app/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_2 => \"[project]/node_modules/.pnpm/next@15.1.1-canary.22_react_e7fafc9fa8786d084fbd22c885b14bd3/node_modules/next/dist/client/components/not-found-error.js [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0a-~uw7._.js")
+R.c("server/chunks/ssr/0q5k__pnpm_07.1a1b._.js")
+R.c("server/chunks/ssr/07-b_next_dist_esm_build_templates_app-page_0l9vk03.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0jtb4gm._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0zm5ncj._.js")
+R.c("server/chunks/ssr/Desktop_nextzy-main_415industries_0g6bpzt._.js")
+R.c("server/chunks/ssr/07-b_next_dist_client_components_014vbu0._.js")
+R.c("server/chunks/ssr/07-b_next_dist_client_components_builtin_forbidden_0cihn01.js")
+R.c("server/chunks/ssr/07-b_next_dist_client_components_builtin_unauthorized_05y_t1x.js")
+R.c("server/chunks/ssr/0.hs_415industries__next-internal_server_app__not-found_page_actions_0xk0dru.js")
+R.m(56740)
+module.exports=R.m(56740).exports

@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[92019,["/_next/static/chunks/16s9co~xswl2z.js","/_next/static/chunks/0z8qw1lmt0ip1.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+5:[]
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mt-12 space-y-12 font-mono max-w-[700px] mx-auto","children":[["$","h1",null,{"className":"text-xl","children":"PRIVACY"}],["$","section",null,{"className":"space-y-4","children":[["$","h2",null,{"className":"text-lg","children":"DATA COLLECTION"}],["$","p",null,{"className":"leading-relaxed","children":"We collect minimal personal information necessary for order processing and delivery. This includes your name, shipping address, and contact information."}]]}],["$","section",null,{"className":"space-y-4","children":[["$","h2",null,{"className":"text-lg","children":"DATA USAGE"}],["$","p",null,{"className":"leading-relaxed","children":"Your information is used solely for order fulfillment and shipping purposes. We do not share or sell your data to third parties."}]]}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W5","buildId":"NYOtqdQm02DvKTegCJlev"}
+4:null

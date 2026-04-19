@@ -1,5 +1,6 @@
-const CHUNK_PUBLIC_PATH = "server/app/favicon.ico/route.js";
-const runtime = require("../../chunks/[turbopack]_runtime.js");
-runtime.loadChunk("server/chunks/f912e_next_5b7a0a._.js");
-runtime.loadChunk("server/chunks/[root of the server]__16e15e._.js");
-module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/.pnpm/next@15.1.1-canary.22_react_e7fafc9fa8786d084fbd22c885b14bd3/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/favicon--route-entry.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
+var R=require("../../chunks/[turbopack]_runtime.js")("server/app/favicon.ico/route.js")
+R.c("server/chunks/[externals]_next_dist_0arv.vj._.js")
+R.c("server/chunks/[root-of-the-server]__0agdkx6._.js")
+R.c("server/chunks/0.hs_415industries__next-internal_server_app_favicon_ico_route_actions_05ferff.js")
+R.m(47260)
+module.exports=R.m(47260).exports

@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[92019,["/_next/static/chunks/16s9co~xswl2z.js","/_next/static/chunks/0z8qw1lmt0ip1.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+5:[]
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mt-12 space-y-12 font-mono max-w-[700px] mx-auto","children":[["$","h1",null,{"className":"text-xl","children":"TERMS"}],["$","section",null,{"className":"space-y-4","children":[["$","h2",null,{"className":"text-lg","children":"TERMS OF SERVICE"}],["$","p",null,{"className":"leading-relaxed","children":"By accessing and placing an order with 415 Industries, you confirm that you are in agreement with and bound by the terms and conditions contained herein."}]]}],["$","section",null,{"className":"space-y-4","children":[["$","h2",null,{"className":"text-lg","children":"PRICING"}],["$","p",null,{"className":"leading-relaxed","children":"All prices are final and non-negotiable. Prices are listed in USD and do not include taxes or shipping costs, which will be calculated at checkout."}]]}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W5","buildId":"NYOtqdQm02DvKTegCJlev"}
+4:null

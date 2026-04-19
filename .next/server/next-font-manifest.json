@@ -1,22 +1,25 @@
 {
   "app": {
-    "[project]/app/page": [
-      "static/media/GeistMono_Variable.p.0ce97b8a.woff2"
+    "[project]/Desktop/nextzy-main/415industries/app/_not-found/page": [
+      "static/media/GeistMono_Variable.p.17b2olbe3zz2r.woff2"
     ],
-    "[project]/app/about/page": [
-      "static/media/GeistMono_Variable.p.0ce97b8a.woff2"
+    "[project]/Desktop/nextzy-main/415industries/app/about/page": [
+      "static/media/GeistMono_Variable.p.17b2olbe3zz2r.woff2"
     ],
-    "[project]/app/help/page": [
-      "static/media/GeistMono_Variable.p.0ce97b8a.woff2"
+    "[project]/Desktop/nextzy-main/415industries/app/help/page": [
+      "static/media/GeistMono_Variable.p.17b2olbe3zz2r.woff2"
     ],
-    "[project]/app/terms/page": [
-      "static/media/GeistMono_Variable.p.0ce97b8a.woff2"
+    "[project]/Desktop/nextzy-main/415industries/app/p/[slug]/page": [
+      "static/media/GeistMono_Variable.p.17b2olbe3zz2r.woff2"
     ],
-    "[project]/app/p/[slug]/page": [
-      "static/media/GeistMono_Variable.p.0ce97b8a.woff2"
+    "[project]/Desktop/nextzy-main/415industries/app/page": [
+      "static/media/GeistMono_Variable.p.17b2olbe3zz2r.woff2"
     ],
-    "[project]/app/_not-found/page": [
-      "static/media/GeistMono_Variable.p.0ce97b8a.woff2"
+    "[project]/Desktop/nextzy-main/415industries/app/privacy/page": [
+      "static/media/GeistMono_Variable.p.17b2olbe3zz2r.woff2"
+    ],
+    "[project]/Desktop/nextzy-main/415industries/app/terms/page": [
+      "static/media/GeistMono_Variable.p.17b2olbe3zz2r.woff2"
     ]
   },
   "appUsingSizeAdjust": false,
