@@ -22,13 +22,6 @@ export const products: Product[] = [
     season: 'Season 1: Legacy Robotics',
   },
   {
-    id: 'team-polo-legacy',
-    name: "TEAM POLO 'LEGACY'",
-    image: '/products/legacy polo front.png',
-    images: ['/products/legacy polo front.png', '/products/legacy polo back.png'],
-    season: 'Season 1: Legacy Robotics',
-  },
-  {
     id: 'rover-hoodie-drilled',
     name: "ROVER HOODIE 'DRILLED'",
     image: '/products/drilled hoodie back.png',
@@ -75,6 +68,13 @@ export const products: Product[] = [
     name: "SPORTS TEE 'ATHLOS'",
     image: '/products/athlos tee front.png',
     images: ['/products/athlos tee front.png', '/products/athlos tee back.jpg'],
+    season: 'Season 1: Legacy Robotics',
+  },
+  {
+    id: 'team-polo-legacy',
+    name: "TEAM POLO 'LEGACY'",
+    image: '/products/legacy polo front.png',
+    images: ['/products/legacy polo front.png', '/products/legacy polo back.png'],
     season: 'Season 1: Legacy Robotics',
   },
 ];
