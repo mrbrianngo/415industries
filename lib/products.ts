@@ -3,6 +3,7 @@ export interface Product {
   name: string;
   image: string;
   images?: string[];
+  season: string;
 }
 
 export const products: Product[] = [
@@ -11,60 +12,70 @@ export const products: Product[] = [
     name: "CLASSIC HOODIE 'LEGACY'",
     image: '/products/classic hoodie back.png',
     images: ['/products/classic hoodie back.png', '/products/hoodie front.png'],
+    season: 'Season 1: Legacy Robotics',
   },
   {
     id: 'classic-tee-legacy',
     name: "CLASSIC TEE 'LEGACY'",
     image: '/products/classic tee back.png',
-    images: ['/products/classic tee back.png', '/products/t shirt front.png'],
-  },
-  {
-    id: 'rover-hoodie-drilled',
-    name: "ROVER HOODIE 'DRILLED'",
-    image: '/products/drilled hoodie back.png',
-    images: ['/products/drilled hoodie back.png', '/products/hoodie front.png'],
-  },
-  {
-    id: 'rover-tee-drilled',
-    name: "ROVER TEE 'DRILLED'",
-    image: '/products/drilled tee front.png',
-    images: ['/products/drilled tee front.png', '/products/t shirt front.png'],
-  },
-  {
-    id: 'quarter-zip-matcha',
-    name: "QUARTER ZIP 'MATCHA'",
-    image: '/products/green quarter zip front.png',
-    images: ['/products/green quarter zip front.png', '/products/green quarter zip back.jpg'],
-  },
-  {
-    id: 'quarter-zip-cobalt',
-    name: "QUARTER ZIP 'COBALT'",
-    image: '/products/black quarter zip front.png',
-    images: ['/products/black quarter zip front.png', '/products/black quarter zip back.jpg'],
-  },
-  {
-    id: 'mooned-hoodie-manny',
-    name: "MOONED HOODIE 'MANNY'",
-    image: '/products/manny hoodie back.png',
-    images: ['/products/manny hoodie back.png', '/products/hoodie front.png'],
-  },
-  {
-    id: 'mooned-tee-manny',
-    name: "MOONED TEE 'MANNY'",
-    image: '/products/manny tee back.png',
-    images: ['/products/manny tee back.png', '/products/t shirt front.png'],
-  },
-  {
-    id: 'sports-tee-athlos',
-    name: "SPORTS TEE 'ATHLOS'",
-    image: '/products/athlos tee front.png',
-    images: ['/products/athlos tee front.png', '/products/athlos tee back.jpg'],
+    images: ['/products/classic tee back.png', '/products/t shirt front.png', 'products/t shirt blue back.png', 'products/t shirt green back.png', 'products/t shirt brown back.png'],
+    season: 'Season 1: Legacy Robotics',
   },
   {
     id: 'team-polo-legacy',
     name: "TEAM POLO 'LEGACY'",
     image: '/products/legacy polo front.png',
     images: ['/products/legacy polo front.png', '/products/legacy polo back.png'],
+    season: 'Season 1: Legacy Robotics',
+  },
+  {
+    id: 'rover-hoodie-drilled',
+    name: "ROVER HOODIE 'DRILLED'",
+    image: '/products/drilled hoodie back.png',
+    images: ['/products/drilled hoodie back.png', '/products/hoodie front.png'],
+    season: 'Season 1: Legacy Robotics',
+  },
+  {
+    id: 'rover-tee-drilled',
+    name: "ROVER TEE 'DRILLED'",
+    image: '/products/drilled tee front.png',
+    images: ['/products/drilled tee front.png', '/products/t shirt front.png'],
+    season: 'Season 1: Legacy Robotics',
+  },
+  {
+    id: 'quarter-zip-matcha',
+    name: "QUARTER ZIP 'MATCHA'",
+    image: '/products/green quarter zip front.png',
+    images: ['/products/green quarter zip front.png', '/products/green quarter zip back.jpg'],
+    season: 'Season 1: Legacy Robotics',
+  },
+  {
+    id: 'quarter-zip-cobalt',
+    name: "QUARTER ZIP 'COBALT'",
+    image: '/products/black quarter zip front.png',
+    images: ['/products/black quarter zip front.png', '/products/black quarter zip back.jpg'],
+    season: 'Season 1: Legacy Robotics',
+  },
+  {
+    id: 'mooned-hoodie-manny',
+    name: "MOONED HOODIE 'MANNY'",
+    image: '/products/manny hoodie back.png',
+    images: ['/products/manny hoodie back.png', '/products/hoodie front.png'],
+    season: 'Season 1: Legacy Robotics',
+  },
+  {
+    id: 'mooned-tee-manny',
+    name: "MOONED TEE 'MANNY'",
+    image: '/products/manny tee back.png',
+    images: ['/products/manny tee back.png', '/products/t shirt front.png'],
+    season: 'Season 1: Legacy Robotics',
+  },
+  {
+    id: 'sports-tee-athlos',
+    name: "SPORTS TEE 'ATHLOS'",
+    image: '/products/athlos tee front.png',
+    images: ['/products/athlos tee front.png', '/products/athlos tee back.jpg'],
+    season: 'Season 1: Legacy Robotics',
   },
 ];
 

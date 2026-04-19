@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[92019,["/_next/static/chunks/16s9co~xswl2z.js","/_next/static/chunks/0z8qw1lmt0ip1.js"],"OutletBoundary"]
-3:"$Sreact.suspense"
-5:[]
-0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mt-12 space-y-12 font-mono max-w-[700px] mx-auto","children":[["$","h1",null,{"className":"text-xl","children":"HELP"}],["$","section",null,{"className":"space-y-4","children":[["$","h2",null,{"className":"text-lg","children":"ALL SALES FINAL"}],["$","p",null,{"className":"leading-relaxed","children":"All sales are final due to the low cost of goods. We do not offer returns, exchanges, or refunds. Please review your order carefully before completing your purchase."}]]}],["$","section",null,{"className":"space-y-4","children":[["$","h2",null,{"className":"text-lg","children":"ORDER ISSUES"}],["$","p",null,{"className":"leading-relaxed","children":"For any issues with your order (e.g., wrong item or defective product), contact us at support@415industries.com"}],["$","p",null,{"className":"leading-relaxed","children":"Please include your order number and details of the issue."}]]}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W5","buildId":"NYOtqdQm02DvKTegCJlev"}
-4:null
