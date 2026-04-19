@@ -13,8 +13,8 @@ const nextConfig: NextConfig = {
     ],
     formats: ['image/avif', 'image/webp'],
   },
+  cacheComponents: true,
   experimental: {
-    ppr: true,
     inlineCss: true,
   },
 };
