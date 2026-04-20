@@ -13,10 +13,8 @@ export default function AboutPage() {
       <section className="space-y-4">
         <h2 className="text-lg">415 Industries</h2>
         <p className="leading-relaxed">
-          415 Industries is a minimalist ecommerce template inspired by the design
-          principles of simplicity and functionality. Built with Next.js and
-          modern web technologies, it offers a streamlined shopping experience
-          focused on essential clothing items.
+          415 Industries is a streetwear brand by Brian Ngo. This website will serve as a
+          portfolio of past collections.
         </p>
       </section>
 
@@ -33,8 +31,7 @@ export default function AboutPage() {
         <h2 className="text-lg">CREDIT</h2>
         <p className="leading-relaxed">
           All credit for the site design and inspiration goes to the original
-          Yeezy team and designers. Product images were generated with
-          Midjourney.
+          Yeezy team and designers.
         </p>
       </section>
     </div>
