@@ -132,12 +132,11 @@ export function MainMenu({ isBackVisible, onBack }: MainMenuProps) {
             exit={{ opacity: 0, x: -20 }}
           >
             <ul className="flex items-center space-x-2">
-              {['HELP', 'TERMS', 'PRIVACY', 'ABOUT'].map((item, index) => (
+              {['ABOUT'].map((item, index) => (
                 <motion.li
                   key={item}
-                  className={`bg-white px-3 py-1 rounded ${
-                    item === 'PRIVACY' ? 'hidden sm:block' : ''
-                  }`}
+                  className={`bg-white px-3 py-1 rounded ${item === 'PRIVACY' ? 'hidden sm:block' : ''
+                    }`}
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.1 }}
