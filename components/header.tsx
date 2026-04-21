@@ -11,7 +11,7 @@ interface HeaderProps {
 
 export function Header({ isBackVisible, onBack, onColumnToggle, showColumnToggle }: HeaderProps) {
   return (
-    <nav className="flex items-center justify-between py-0 px-5 fixed top-0 left-0 right-0 z-10 bg-white">
+    <nav className="flex items-center justify-between py-0 px-5 fixed top-0 left-0 right-0 z-10 bg-white h-[60px]">
       <div className="flex items-center">
         <MainMenu isBackVisible={isBackVisible} onBack={onBack} />
         {showColumnToggle && (
@@ -24,6 +24,15 @@ export function Header({ isBackVisible, onBack, onColumnToggle, showColumnToggle
           </button>
         )}
       </div>
+
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+        <img 
+          src="/logo.png" 
+          alt="415 Industries Logo" 
+          className="size-10 animate-spin-slow"
+        />
+      </div>
+
       <div className="flex items-center">
         {/* Cart removed as per user request to remove store functionality */}
       </div>
