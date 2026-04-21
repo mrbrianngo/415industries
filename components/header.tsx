@@ -27,9 +27,9 @@ export function Header({ isBackVisible, onBack, onColumnToggle, showColumnToggle
 
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
         <img 
-          src="/logo.png" 
+          src="/logo.gif" 
           alt="415 Industries Logo" 
-          className="size-10 animate-spin-slow"
+          className="size-10"
         />
       </div>
 
