@@ -34,7 +34,7 @@ export function ProductInfoTrigger({ product }: { product: Product }) {
           <div className="mt-8 relative w-full h-12 flex justify-center">
             <button
               onClick={() => setIsModalOpen(true)}
-              className="px-6 py-2 flex items-center justify-center bg-white border border-black hover:bg-black hover:text-white transition-colors font-mono text-xs font-bold uppercase tracking-widest"
+              className="px-6 py-2 flex items-center justify-center bg-transparent hover:opacity-50 transition-opacity font-mono text-xs font-bold uppercase tracking-widest"
               aria-label="Product Information"
             >
               Information
