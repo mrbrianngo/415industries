@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { Info } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { type Product } from '@/lib/products';
 import { ProductInfoModal } from './product-info-modal';
@@ -35,10 +34,10 @@ export function ProductInfoTrigger({ product }: { product: Product }) {
           <div className="mt-8 relative w-full h-12 flex justify-center">
             <button
               onClick={() => setIsModalOpen(true)}
-              className="size-12 flex items-center justify-center bg-white border border-black hover:bg-black hover:text-white transition-colors"
+              className="px-6 py-2 flex items-center justify-center bg-white border border-black hover:bg-black hover:text-white transition-colors font-mono text-xs font-bold uppercase tracking-widest"
               aria-label="Product Information"
             >
-              <Info className="size-5" />
+              Information
             </button>
           </div>
         </div>
