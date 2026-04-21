@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${GeistMono.className}`}>
-        <div className="flex flex-col min-h-screen h-screen mx-5 overflow-y-scroll">
+        <div className="flex flex-col min-h-[100svh] h-[100svh] mx-5 overflow-y-scroll">
           {children}
         </div>
       </body>

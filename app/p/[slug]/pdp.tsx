@@ -21,7 +21,7 @@ export default function PDP({ slug }: { slug: string }) {
   return (
     <div className="flex flex-col min-h-screen">
       <Header isBackVisible={true} onBack={handleBack} />
-      <main className="flex flex-col items-center justify-between pt-[20px]">
+      <main className="flex flex-col items-center justify-between pt-[20px] pb-12">
         <div className="w-full max-w-4xl mx-auto flex-grow flex flex-col items-center justify-center p-4">
           <ProductImage
             product={product}

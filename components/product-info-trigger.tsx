@@ -27,7 +27,7 @@ export function ProductInfoTrigger({ product }: { product: Product }) {
           </div>
 
           {/* Info Button */}
-          <div className="mt-8 relative w-full h-12 flex justify-center">
+          <div className="mt-8 mb-6 relative w-full h-12 flex justify-center">
             <button
               onClick={() => setIsModalOpen(true)}
               className="px-6 py-2 flex items-center justify-center bg-transparent hover:opacity-50 transition-opacity font-mono text-xs font-bold uppercase tracking-widest"

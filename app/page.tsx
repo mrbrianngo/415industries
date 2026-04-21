@@ -220,7 +220,7 @@ export default function Page() {
               style={{
                 height: 'calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom))',
                 paddingTop: 'calc(60px + env(safe-area-inset-top))',
-                paddingBottom: '0',
+                paddingBottom: 'max(2rem, env(safe-area-inset-bottom))',
               }}
               onClick={handleBack}
             >
@@ -291,7 +291,7 @@ export default function Page() {
               </div>
 
               <motion.div
-                className="w-full max-w-md mx-auto p-4 z-20"
+                className="w-full max-w-md mx-auto p-4 pb-12 z-20"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: 0.3 }}
