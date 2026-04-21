@@ -1,7 +1,6 @@
 import './globals.css';
 import { GeistMono } from 'geist/font/mono';
 import { Metadata, Viewport } from 'next';
-import { CartProvider } from '@/components/cart-context';
 
 export const metadata: Metadata = {
   title: '415 Industries',
@@ -20,11 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${GeistMono.className}`}>
-        <CartProvider>
-          <div className="flex flex-col min-h-screen h-screen mx-5 overflow-y-scroll">
-            {children}
-          </div>
-        </CartProvider>
+        <div className="flex flex-col min-h-screen h-screen mx-5 overflow-y-scroll">
+          {children}
+        </div>
       </body>
     </html>
   );

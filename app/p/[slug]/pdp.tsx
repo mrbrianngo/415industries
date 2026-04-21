@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { notFound, redirect } from 'next/navigation';
 import { getProductById } from '@/lib/products';
-import { AddToCart } from '@/components/add-to-cart';
+import { ProductInfoTrigger } from '@/components/product-info-trigger';
 import { Header } from '@/components/header';
 import { ProductImage } from '@/components/product-image';
 
@@ -37,7 +37,7 @@ export default function PDP({ slug }: { slug: string }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.3 }}
         >
-          <AddToCart product={product} />
+          <ProductInfoTrigger product={product} />
         </motion.div>
       </main>
     </div>

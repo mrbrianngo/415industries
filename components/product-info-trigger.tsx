@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { type Product } from '@/lib/products';
 import { ProductInfoModal } from './product-info-modal';
 
-export function AddToCart({ product }: { product: Product }) {
+export function ProductInfoTrigger({ product }: { product: Product }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const productName = product.id

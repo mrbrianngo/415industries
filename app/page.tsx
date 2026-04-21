@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback, useTransition } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { products, Product } from '@/lib/products';
 import { Header } from '@/components/header';
-import { AddToCart } from '@/components/add-to-cart';
+import { ProductInfoTrigger } from '@/components/product-info-trigger';
 import { ProductImage } from '@/components/product-image';
 
 const swipeConfidenceThreshold = 10000;
@@ -297,7 +297,7 @@ export default function Page() {
                 transition={{ duration: 0.3, delay: 0.3 }}
                 onClick={(e) => e.stopPropagation()}
               >
-                <AddToCart product={selectedProduct} />
+                <ProductInfoTrigger product={selectedProduct} />
               </motion.div>
             </motion.div>
           )}
