@@ -8,11 +8,7 @@ import { ProductInfoModal } from './product-info-modal';
 export function ProductInfoTrigger({ product }: { product: Product }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const productName = product.id
-    .split('-')
-    .slice(0, -1)
-    .join('-')
-    .toUpperCase();
+  const productName = product.name;
 
   return (
     <motion.div
