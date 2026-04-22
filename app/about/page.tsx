@@ -13,8 +13,8 @@ export default function AboutPage() {
       <section className="space-y-4">
         <h2 className="text-lg">415 Industries</h2>
         <p className="leading-relaxed">
-          415 Industries is a streetwear brand by Brian Ngo. The brand's name originated
-          from the viral “4-1-5” hand greeting bus drivers signal to other drivers passing
+          415 Industries is an experimental streetwear brand c/o Brian Ngo. The brand's name originated
+          from the “4-1-5” hand greeting bus drivers signal to other bus driver colleagues passing
           by. This website will serve as a portfolio of past collections.
         </p>
       </section>
