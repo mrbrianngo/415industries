@@ -4,7 +4,7 @@ import { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
   title: '415 Industries',
-  description: '415 Industries Season 1: Legacy.',
+  description: '415 Industries Collection 1: Legacy.',
 };
 
 export const viewport: Viewport = {

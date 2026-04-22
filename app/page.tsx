@@ -37,13 +37,13 @@ export default function Page() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [direction, setDirection] = useState(0);
-  const [activeSeason, setActiveSeason] = useState('Season 1: Legacy Robotics');
+  const [activeCollection, setActiveCollection] = useState('Collection 1: Legacy Robotics');
   const [columns, setColumns] = useState(6);
   const [isPending, startTransition] = useTransition();
 
-  const dynamicSeasons = Array.from(new Set(products.map(p => p.season)));
-  const seasons = Array.from(new Set(['Season 1: Legacy Robotics', 'Season 2', ...dynamicSeasons]));
-  const filteredProducts = products.filter(p => p.season === activeSeason);
+  const dynamicCollections = Array.from(new Set(products.map(p => p.collection)));
+  const collections = Array.from(new Set(['Collection 1: Legacy Robotics', 'Collection 2', ...dynamicCollections]));
+  const filteredProducts = products.filter(p => p.collection === activeCollection);
 
   const handleProductClick = (product: Product) => {
     startTransition(() => {
@@ -141,16 +141,16 @@ export default function Page() {
             className="mb-8"
           >
             <div className="flex justify-center space-x-6 overflow-x-auto pb-2 mb-6">
-              {seasons.map((season) => (
+              {collections.map((collection) => (
                 <button
-                  key={season}
-                  onClick={() => setActiveSeason(season)}
+                  key={collection}
+                  onClick={() => setActiveCollection(collection)}
                   className={`pb-2 text-sm font-mono tracking-widest uppercase transition-colors relative whitespace-nowrap ${
-                    activeSeason === season ? 'text-black' : 'text-gray-400 hover:text-gray-600'
+                    activeCollection === collection ? 'text-black' : 'text-gray-400 hover:text-gray-600'
                   }`}
                 >
-                  {season}
-                  {activeSeason === season && (
+                  {collection}
+                  {activeCollection === collection && (
                     <motion.div 
                       layoutId="activeTab" 
                       className="absolute bottom-0 left-0 right-0 h-0.5 bg-black" 
