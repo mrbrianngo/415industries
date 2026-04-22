@@ -10,7 +10,7 @@ export const products: Product[] = [
   {
     id: 'classic-hoodie-legacy',
     name: "CLASSIC HOODIE 'LEGACY'",
-    image: '/products/classssic hoodie back.png',
+    image: '/products/classsic hoodie back.png',
     images: ['/products/classsic hoodie back.png', '/products/hoodie front.png'],
     season: 'Season 1: Legacy Robotics',
   },
