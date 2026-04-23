@@ -37,12 +37,21 @@ export default function Page() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [direction, setDirection] = useState(0);
-  const [activeCollection, setActiveCollection] = useState('Collection 1: Legacy Robotics');
+
+  // Compute collections and determine the starting collection
+  const dynamicCollections = Array.from(new Set(products.map(p => p.collection)));
+  const allCollections = Array.from(new Set(['Collection 1: Legacy Robotics', 'Collection 2', ...dynamicCollections])).reverse();
+  const defaultCollection = allCollections.find(c => products.some(p => p.collection === c)) || allCollections[allCollections.length - 1];
+
+  const [activeCollection, setActiveCollection] = useState(defaultCollection);
+  const [showArchived, setShowArchived] = useState(false);
   const [columns, setColumns] = useState(6);
   const [isPending, startTransition] = useTransition();
 
-  const dynamicCollections = Array.from(new Set(products.map(p => p.collection)));
-  const collections = Array.from(new Set(['Collection 1: Legacy Robotics', 'Collection 2', ...dynamicCollections]));
+  const startingIndex = allCollections.indexOf(defaultCollection);
+  const mainCollections = allCollections.slice(0, startingIndex + 1);
+  const archivedCollections = allCollections.slice(startingIndex + 1);
+
   const filteredProducts = products.filter(p => p.collection === activeCollection);
 
   const handleProductClick = (product: Product) => {
@@ -140,24 +149,69 @@ export default function Page() {
             exit={{ opacity: 0 }}
             className="mb-8"
           >
-            <div className="flex justify-center space-x-6 overflow-x-auto pb-2 mb-6">
-              {collections.map((collection) => (
-                <button
-                  key={collection}
-                  onClick={() => setActiveCollection(collection)}
-                  className={`pb-2 text-sm font-mono tracking-widest uppercase transition-colors relative whitespace-nowrap ${
-                    activeCollection === collection ? 'text-black' : 'text-gray-400 hover:text-gray-600'
-                  }`}
-                >
-                  {collection}
-                  {activeCollection === collection && (
-                    <motion.div 
-                      layoutId="activeTab" 
-                      className="absolute bottom-0 left-0 right-0 h-0.5 bg-black" 
-                    />
-                  )}
-                </button>
-              ))}
+            <div className="flex flex-col items-center mb-10">
+              <div className="flex justify-center space-x-6 overflow-x-auto pb-4 mb-2 w-full no-scrollbar">
+                {mainCollections.map((collection) => (
+                  <button
+                    key={collection}
+                    onClick={() => setActiveCollection(collection)}
+                    className={`pb-2 text-sm font-mono tracking-widest uppercase transition-colors relative whitespace-nowrap ${
+                      activeCollection === collection ? 'text-black' : 'text-gray-400 hover:text-gray-600'
+                    }`}
+                  >
+                    {collection}
+                    {activeCollection === collection && (
+                      <motion.div 
+                        layoutId="activeTab" 
+                        className="absolute bottom-0 left-0 right-0 h-0.5 bg-black" 
+                      />
+                    )}
+                  </button>
+                ))}
+              </div>
+
+              {archivedCollections.length > 0 && (
+                <div className="mt-2 text-center">
+                  <button
+                    onClick={() => setShowArchived(!showArchived)}
+                    className="text-[10px] font-mono tracking-[0.2em] text-gray-400 hover:text-black transition-colors uppercase py-2"
+                  >
+                    {showArchived ? "- HIDE ARCHIVE" : "+ ARCHIVED COLLECTIONS"}
+                  </button>
+                  
+                  <AnimatePresence>
+                    {showArchived && (
+                      <motion.div
+                        initial={{ opacity: 0, y: -10, height: 0 }}
+                        animate={{ opacity: 1, y: 0, height: 'auto' }}
+                        exit={{ opacity: 0, y: -10, height: 0 }}
+                        transition={{ duration: 0.3, ease: "easeInOut" }}
+                        className="overflow-hidden"
+                      >
+                        <div className="flex justify-center flex-wrap gap-x-6 gap-y-4 pt-6 pb-2">
+                          {archivedCollections.map((collection) => (
+                            <button
+                              key={collection}
+                              onClick={() => setActiveCollection(collection)}
+                              className={`text-xs font-mono tracking-widest uppercase transition-colors relative whitespace-nowrap ${
+                                activeCollection === collection ? 'text-black' : 'text-gray-400 hover:text-gray-600'
+                              }`}
+                            >
+                              {collection}
+                              {activeCollection === collection && (
+                                <motion.div 
+                                  layoutId="activeTab" 
+                                  className="absolute -bottom-1 left-0 right-0 h-0.5 bg-black" 
+                                />
+                              )}
+                            </button>
+                          ))}
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              )}
             </div>
           </motion.div>
         )}
